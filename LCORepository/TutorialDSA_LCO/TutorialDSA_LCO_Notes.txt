@@ -1,2 +1,5 @@
-Hello 123
-123234
+O(1) : Constant 
+O(log n): Logarithmic
+O(n): Linear
+O(n log n): Linear Logarithmic
+O(n2): Quadratic 
