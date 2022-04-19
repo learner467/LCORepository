@@ -3,3 +3,58 @@ O(log n): Logarithmic
 O(n): Linear
 O(n log n): Linear Logarithmic
 O(n2): Quadratic 
+
+PLAN TO SOLVE A PROBLEM
+_______________________
+
+1. Read the problem word by word
+2. Understand the problem
+3. Break it down 
+4. Slove or simply the problem 
+5. Repeat if possible 
+
+WAP which take string input and retuns character count ?
+
+Hard disk
+Memory:
+    Code Loader: Loads up your code into the Memory ==> Photoshop code
+    Stack: Used in 60-70% of the cases ==> Memory of Images
+    Heap: Code will not access heap directly. Used through Pointers/Similar 
+
+Data Structures:
+    Physical Data Strunctures:
+        Array
+        Linked List
+        Linked List + Array
+
+    Logical Data Strunctures:
+        Stack // Liner DS
+        Queues // Liner DS
+        Trees // Non Liner DS
+        Graphs // Non Liner DS
+        Hash Tables // Tabular DS
+        Lang Specific Ones
+
+
+Abstract Data Types(ADT)
+________________________
+
+    List ADT
+    Stack ADT
+    Queue ADT
+
+Recursion
+_______________________
+    Trace Forward/Track Forward
+    Trace Backward/Track Backward
+
+Types of Recursions:
+_______________________
+
+    Head/Top Recursion
+    Tail/Bottom Recursion
+    Tree Recursion
+    
+
+
+

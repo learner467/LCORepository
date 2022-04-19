@@ -2,7 +2,7 @@ public class AA_ReverseAString{
 
     public static void main(String[] args) {
         log("main","START");
-        String myString="12345678";
+        String myString="parag";
         log("main","Calling reverseString for string"+myString);
 
         reverseString(myString);
