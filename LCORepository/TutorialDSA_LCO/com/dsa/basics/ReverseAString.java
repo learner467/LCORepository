@@ -1,9 +1,10 @@
-public class AA_ReverseAString{
+package com.dsa.basics;
+public class ReverseAString{
 
     public static void main(String[] args) {
         log("main","START");
         String myString="parag";
-        log("main","Calling reverseString for string"+myString);
+        log("main","Calling reverseString for string "+myString);
 
         reverseString(myString);
         log("main","END");
