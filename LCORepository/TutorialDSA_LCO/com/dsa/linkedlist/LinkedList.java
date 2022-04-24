@@ -207,26 +207,25 @@ public class LinkedList {
         return countNodes(head);
     }
 
-    public void reverseLinkedList(){
-        Node currentNode=head;
+    public Node reverseLinkedList(Node node){
+        Node currentNode=node;
         Node prevNode=null;
         Node nextNode=null;
 
-        while(currentNode!=null){
-          
+        while(currentNode!=null){     
             nextNode=currentNode.next;
             currentNode.next=prevNode;
 
             prevNode=currentNode;
-
-            if(nextNode==null){
-                head=currentNode;
-                break;
-            }else{
-                currentNode=nextNode;    
-            }  
-            
+            currentNode=nextNode;      
         }
+        node=prevNode;
+        return node;
+
+    }
+
+    public void reverse(){
+        head=reverseLinkedList(head);
 
     }
 }
