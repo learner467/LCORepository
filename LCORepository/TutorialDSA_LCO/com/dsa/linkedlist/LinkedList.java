@@ -228,6 +228,15 @@ public class LinkedList {
         head=reverseLinkedList(head);
 
     }
+
+    public void convertToCircularLinkedList(){
+        Node currentNode=head;
+        while(currentNode.next!=null){
+            currentNode=currentNode.next;
+        }
+
+        currentNode.next=head;
+    }
 }
 
 
